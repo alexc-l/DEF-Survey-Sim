@@ -1,0 +1,8 @@
+{
+  "num_beams": 5,
+  "do_sample": false,
+  "top_p": 1,
+  "temperature": 1,
+  "max_new_tokens": 128,
+  "max_memory": 15
+}
