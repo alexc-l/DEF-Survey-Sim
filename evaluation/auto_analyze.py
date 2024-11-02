@@ -61,12 +61,7 @@ def prepare_answers(output_file, choices_list):
             answer = answers_raw[i]
             answers.append(answer)
         elif answers_raw != "\n":
-            try:
-                answers[-1] += answers_raw[i]
-            except:
-                print(answers)
-                print(answers_raw[i])
-                print(a)
+            answers[-1] += answers_raw[i]
 
     # assert len(answers) == len(choices_list), "length mismatch: ans %d, ques %d" % (len(answers), len(choices_list))
 

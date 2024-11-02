@@ -708,7 +708,7 @@ def argument_parser():
     parser.add_argument(
         "--intellect",
         type=str,
-        default="yes",
+        default="no",
         help="whether do intellect measure"
     )
     return parser

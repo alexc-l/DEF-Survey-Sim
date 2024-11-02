@@ -9,7 +9,7 @@ def argument_setting():
     os.environ["http_proxy"] = "127.0.0.1:5878"
     os.environ["https_proxy"] = "127.0.0.1:5878"
     model = "gpt-3.5-turbo"
-    openai.api_key = "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"
+    openai.api_key = ""
 
     cn_scale_questions = [28, 62, 66, 67, 68, 69, 70, 72, 79, 101, 102, 103, 104, 105, 106, 113, 114, 115, 116, 117,
                           118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129]
