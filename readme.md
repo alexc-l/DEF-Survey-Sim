@@ -63,7 +63,7 @@ Full parameter list available in [human_eval_start.cmd](evaluation/scripts/human
 
 ### Insensitivity Measurement
 ```shell
-python human_eval.py \
+python intellect_eval.py \
     --lang [Chinese|English] \
     --output_dir <generation_output> \
     --data_storage <distribution_output> \
@@ -71,7 +71,7 @@ python human_eval.py \
     --instruction_path <human_instruction.txt> \
     --intellect yes
 ```
-Full parameter list available in [intellect_eval_start.cmd](evaluation/scripts/intellect_eval_start.cmd)
+Full parameter list available in [gpt_jugde.cmd](evaluation/scripts/gpt_jugde.cmd)
 
 ## Visualization
 Analyze and visualize results using our Jupyter [notebook](evaluation/Result_figures.ipynb).
