@@ -84,11 +84,14 @@ Our evaluation framework measures alignment across four key metrics:
 - Response quality
 
 # Contributing
-We welcome contributions! Please feel free to submit pull requests or create issues for bugs and feature requests.
+We welcome contributions! 
+
+Please feel free to submit pull requests or create issues for bugs and feature requests.
 
 # Contact
-Technical questions: Create a GitHub Issue
-Research inquiries: alecliu@ontoweb.wust.edu.cn
+**Technical questions**: Create a GitHub Issue
+
+**Research inquiries**: alecliu@ontoweb.wust.edu.cn
 
 # Citation
 If you use this code or our findings in your research, please cite:
