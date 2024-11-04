@@ -37,6 +37,7 @@ python main_test.py \
 | model_class      | Model loading method       | AutoModelForCausalLM, Claude, GPT                        |
 | lang             | Target language/culture    | Chinese, English                                         |
 | diverse_plan     | Diversity enhancement type | prompt, config, pc, all                                  |
+
 Full parameter list available in [evaluation.sh](investigate/scripts/evaluation.sh)
 
 ## 2. Evaluation
