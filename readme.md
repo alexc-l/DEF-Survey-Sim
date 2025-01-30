@@ -84,11 +84,6 @@ Our evaluation framework measures alignment across four key metrics:
 - Demographic bias
 - Response quality
 
-# Contributing
-We welcome contributions! 
-
-Please feel free to submit pull requests or create issues for bugs and feature requests.
-
 # Contact
 **Technical questions**: Create a GitHub Issue
 
@@ -97,5 +92,5 @@ Please feel free to submit pull requests or create issues for bugs and feature r
 # Citation
 If you use this code or our findings in your research, please cite:
 ```bibtex
-TODO
+Update when available.
 ```
