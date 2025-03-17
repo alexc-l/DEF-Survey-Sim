@@ -1,7 +1,7 @@
 # Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation
 ![pipeline.png](docs%2Fpipeline.png)
 ## Overview
-This repository contains the implementation of our paper ["Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation"]().
+This repository contains the implementation of our paper ["Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation"](https://www.sciencedirect.com/science/article/pii/S030645732500041X?dgcid=author) published on Information Processing & Management.
 
 We present a framework for evaluating how well Large Language Models (LLMs) align with cultural values through enhanced survey response simulation. Our approach incorporates diversity enhancement techniques to ensure robust evaluation.
 
@@ -92,5 +92,17 @@ Our evaluation framework measures alignment across four key metrics:
 # Citation
 If you use this code or our findings in your research, please cite:
 ```bibtex
-Update when available.
+@article{LIU2025104099,
+title = {Towards realistic evaluation of cultural value alignment in large language models: Diversity enhancement for survey response simulation},
+journal = {Information Processing & Management},
+volume = {62},
+number = {4},
+pages = {104099},
+year = {2025},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2025.104099},
+url = {https://www.sciencedirect.com/science/article/pii/S030645732500041X},
+author = {Haijiang Liu and Yong Cao and Xun Wu and Chen Qiu and Jinguang Gu and Maofu Liu and Daniel Hershcovich},
+keywords = {Evaluation methods, Value investigation, Survey simulation, Large language models, U.S.-china cultures},
+}
 ```
