@@ -12,8 +12,8 @@ The dataset used in this research is available on [HuggingFace](https://huggingf
 ```shell
 pip install -r requirements.txt
 ```
-# Usage
-## 1. Survey Response Generation
+## Usage
+### 1. Survey Response Generation
 Run the simulation using an LLM with the following configuration options:
 ```shell
 python main_test.py \
@@ -30,7 +30,7 @@ python main_test.py \
   --resume_epoch $resume_epoch \
   --resume_input $resume_input
 ```
-### Key Parameters
+#### Key Parameters
 | Parameter        | Description                | Options                                                  |
 |------------------|----------------------------|----------------------------------------------------------|
 | model_name_short | Supported model type       | baichuan2-chat, chatglm2, mistral, llama-3, llama-3-base |
@@ -40,8 +40,8 @@ python main_test.py \
 
 Full parameter list available in [evaluation.sh](investigate/scripts/evaluation.sh)
 
-## 2. Evaluation
-### Generate Preference Distributions
+### 2. Evaluation
+#### Generate Preference Distributions
 ```shell
 python auto_analyze.py \
     --lang [Chinese|English] \
@@ -51,7 +51,7 @@ python auto_analyze.py \
 ```
 Full parameter list available in [auto_analysis.sh](evaluation/scripts/auto_analysis.sh)
 
-### Human Evaluation
+#### Human Evaluation
 ```shell
 python human_eval.py \
     --lang [Chinese|English] \
@@ -62,7 +62,7 @@ python human_eval.py \
 ```
 Full parameter list available in [human_eval_start.cmd](evaluation/scripts/human_eval_start.cmd).
 
-### Insensitivity Measurement
+#### Insensitivity Measurement
 ```shell
 python intellect_eval.py \
     --lang [Chinese|English] \
@@ -74,22 +74,22 @@ python intellect_eval.py \
 ```
 Full parameter list available in [gpt_jugde.cmd](evaluation/scripts/gpt_jugde.cmd)
 
-## Visualization
+### Visualization
 Analyze and visualize results using our Jupyter [notebook](evaluation/Result_figures.ipynb).
 
-## Results Interpretation
+### Results Interpretation
 Our evaluation framework measures alignment across four key metrics:
 - Preference distribution alignment
 - Cultural sensitivity
 - Demographic bias
 - Response quality
 
-# Contact
+## Contact
 **Technical questions**: Create a GitHub Issue
 
 **Research inquiries**: alecliu@ontoweb.wust.edu.cn
 
-# Citation
+## Citation
 If you use this code or our findings in your research, please cite:
 ```bibtex
 @article{LIU2025104099,
